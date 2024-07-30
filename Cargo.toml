@@ -2,6 +2,9 @@
 name = "cursive-open-editor"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/gamma-delta/cursive-open-editor"
+keywords = ["cursive", "editor"]
+categories = ["command-line-interface"]
 
 [dependencies]
 cursive = "0.20.0"

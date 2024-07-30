@@ -1,14 +1,9 @@
 use std::{
-  io::{self, Read, Seek},
+  io::{self},
   path::PathBuf,
 };
 
-use cursive::{
-  theme::PaletteColor,
-  utils::markup::StyledString,
-  view::Nameable,
-  views::{Button, Dialog, LinearLayout, ListView, TextView},
-};
+use cursive::views::{Button, Dialog, LinearLayout, ListView, TextView};
 use cursive_open_editor::{
   strategy::EditPathStrategy, CursiveOpenEditorOptions,
 };
