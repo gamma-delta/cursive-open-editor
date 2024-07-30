@@ -2,9 +2,12 @@
 name = "cursive-open-editor"
 version = "0.1.0"
 edition = "2021"
+
+description = "Lets you open an external editor in a Cursive application."
 repository = "https://github.com/gamma-delta/cursive-open-editor"
 keywords = ["cursive", "editor"]
 categories = ["command-line-interface"]
+license = "MIT"
 
 [dependencies]
 cursive = "0.20.0"
