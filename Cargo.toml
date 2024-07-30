@@ -1,0 +1,11 @@
+[package]
+name = "cursive-open-editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cursive = "0.20.0"
+tempfile = "3.10.1"
+
+[dev-dependencies]
+dirs = "5.0.1"
